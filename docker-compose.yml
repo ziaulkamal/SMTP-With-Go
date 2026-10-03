@@ -1,0 +1,16 @@
+services:
+  mailcore:
+    build: .
+    image: mailcore:dev
+    ports:
+      - "8080:8080"
+    env_file: .env
+    restart: unless-stopped
+
+  # SMTP + web inbox for local testing: http://localhost:8025
+  # Use smtp {"host": "mailpit", "port": 1025, "encryption": "none"} from mailcore.
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "8025:8025"
+    profiles: ["dev"]

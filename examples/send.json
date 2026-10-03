@@ -1,0 +1,16 @@
+{
+  "smtp": {
+    "host": "localhost",
+    "port": 1025,
+    "encryption": "none"
+  },
+  "from": { "email": "noreply@simpora.id", "name": "Panitia Simpora 2026" },
+  "to": ["peserta@example.com"],
+  "bcc": ["arsip@simpora.id"],
+  "reply_to": "sekretariat@simpora.id",
+  "subject": "Konfirmasi Pendaftaran",
+  "text": "Terima kasih, pendaftaran Anda sudah kami terima.",
+  "html": "<p>Terima kasih, pendaftaran Anda <b>sudah kami terima</b>.</p>",
+  "headers": { "X-Campaign": "pendaftaran" },
+  "attachments": [{ "filename": "bukti.txt", "content": "QnVrdGkgcGVuZGFmdGFyYW4=" }]
+}

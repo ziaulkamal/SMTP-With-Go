@@ -1,0 +1,18 @@
+{
+  "smtp": {
+    "host": "localhost",
+    "port": 1025,
+    "encryption": "none"
+  },
+  "from": "Panitia Simpora 2026 <noreply@simpora.id>",
+  "subject": "Jadwal Pertandingan {{.cabor}} - {{.name}}",
+  "text": "Halo {{.name}},\nJadwal {{.cabor}} Anda: {{.jadwal}}.",
+  "html": "<p>Halo <b>{{.name}}</b>,</p><p>Jadwal {{.cabor}}: {{.jadwal}}</p>",
+  "recipients": [
+    { "email": "andi@example.com", "name": "Andi", "data": { "cabor": "Futsal", "jadwal": "Sabtu 08:00" } },
+    { "email": "budi@example.com", "name": "Budi", "data": { "cabor": "Voli", "jadwal": "Minggu 10:00" } },
+    { "email": "citra@example.com", "name": "Citra", "data": { "cabor": "Badminton", "jadwal": "Minggu 13:00" } }
+  ],
+  "options": { "concurrency": 2, "rate_per_second": 5, "max_retries": 2 },
+  "metadata": { "event": "jadwal-2026" }
+}
