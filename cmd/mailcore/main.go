@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ziaulkamal/mailcore/internal/api"
-	"github.com/ziaulkamal/mailcore/internal/config"
-	"github.com/ziaulkamal/mailcore/internal/job"
-	"github.com/ziaulkamal/mailcore/internal/mailer"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/api"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/config"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/job"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/mailer"
 )
 
 var version = "dev"

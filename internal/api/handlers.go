@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ziaulkamal/mailcore/internal/job"
-	"github.com/ziaulkamal/mailcore/internal/mailer"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/job"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/mailer"
 )
 
 const maxDetails = 20

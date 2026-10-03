@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ziaulkamal/mailcore/internal/mailer"
-	"github.com/ziaulkamal/mailcore/internal/smtptest"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/mailer"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/smtptest"
 )
 
 func TestAddressUnmarshal(t *testing.T) {

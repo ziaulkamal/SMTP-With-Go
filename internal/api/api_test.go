@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ziaulkamal/mailcore/internal/api"
-	"github.com/ziaulkamal/mailcore/internal/config"
-	"github.com/ziaulkamal/mailcore/internal/job"
-	"github.com/ziaulkamal/mailcore/internal/mailer"
-	"github.com/ziaulkamal/mailcore/internal/smtptest"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/api"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/config"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/job"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/mailer"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/smtptest"
 )
 
 const apiKey = "test-key"

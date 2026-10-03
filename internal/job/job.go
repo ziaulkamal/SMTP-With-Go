@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ziaulkamal/mailcore/internal/mailer"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/mailer"
 )
 
 // Status is the lifecycle state of a job.

@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ziaulkamal/mailcore/internal/mailer"
+	"github.com/ziaulkamal/SMTP-With-Go/internal/mailer"
 )
 
 // Errors returned by the Manager.
